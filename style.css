@@ -61,9 +61,9 @@ body {
 header {
   min-height: 100vh;
   display: flex;
-  flex-direction: column; /* Mengubah menjadi kolom untuk tampilan yang lebih baik */
-  align-items: center; /* Memusatkan konten secara horizontal */
-  justify-content: center; /* Memusatkan konten secara vertikal */
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
   position: relative;
   overflow: hidden;
 }
@@ -318,11 +318,11 @@ header {
   padding: 2px 5px;
   border-radius: 3px;
   font-size: 11px;
-  transform: translateX(13px);
+  transform: translateX(30px);
 }
 
 .skill-icon {
-  width: 20px; /* Ukuran lebih kecil */
+  width: 20px; 
   height: 20px;
   margin-right: 8px;
   object-fit: contain;
