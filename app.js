@@ -38,10 +38,9 @@ function showNotification() {
   scrollNotice.classList.add("show");
   setTimeout(() => {
     scrollNotice.classList.remove("show");
-  }, 5000); // Notifikasi tampil selama 5 detik
+  }, 5000);
 }
 
-// Tampilkan notifikasi setiap 5 detik
 setInterval(() => {
   if (window.scrollY < 100) {
     showNotification();
