@@ -45,4 +45,4 @@ setInterval(() => {
   if (window.scrollY < 100) {
     showNotification();
   }
-}, 6900);
+}, 5500);
