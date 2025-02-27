@@ -180,26 +180,49 @@ header {
   cursor: pointer;
 }
 
+
 .skill-card:hover {
   transform: translateY(-10px);
 }
 
 .social-links {
   display: flex;
-  gap: 2.5rem;
+  gap: 30px;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 15px;
+  background-color: rgb(249, 246, 246);
+  border-radius: 20px;
+  padding: 10px 15px;
+  box-shadow: 0 3.5px 8px rgba(0, 0, 0, 0.1);
 }
 
 .social-links a {
-  color: #000000;
-  font-size: 1.9rem;
-  transition: all 0.3s ease;
+  background-color: #5b5959; 
+  color: white;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  text-decoration: none;
+  transition: 0.3s;
+  opacity: 0.5;
+}
+
+.social-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-links{
+  font-size: 20px;
 }
 
 .social-links a:hover {
-  color: #000b08;
-  transform: scale(1.2);
+  background-color: #0cdaa3;
+  transform: scale(1.18);
 }
 
 .glow {
@@ -209,10 +232,11 @@ header {
 .klik-teks {
   text-align: center;
   font-size: 14px;
-  color: #2b2b2b;
+  color: transparent;
   margin-top: 15px;
   transition: color 0.5s;
   font-weight: bold;
+  text-shadow: 0px 0px 1.8px rgba(0, 0, 0, 0.2);
 }
 
 .scroll-notice {
