@@ -61,9 +61,9 @@ body {
 header {
   min-height: 100vh;
   display: flex;
-  flex-direction: column; 
-  align-items: center; 
-  justify-content: center; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   position: relative;
   overflow: hidden;
 }
@@ -322,7 +322,7 @@ header {
 }
 
 .skill-icon {
-  width: 20px; 
+  width: 20px;
   height: 20px;
   margin-right: 8px;
   object-fit: contain;
@@ -331,4 +331,17 @@ header {
 .skill-bar-container {
   background-color: rgb(252, 249, 249);
   border-radius: 10px;
+}
+
+.like-button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: #ff6666;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  transition: opacity 0.3s;
 }
