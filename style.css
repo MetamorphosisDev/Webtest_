@@ -228,21 +228,6 @@ header {
   padding: 1rem 0; /* Padding atas dan bawah */
 }
 
-/* Mengatur gaya scrollbar */
-.skills-grid::-webkit-scrollbar {
-  width: 9px; /* Lebar scrollbar */
-  height: 9.5px; /* Tinggi scrollbar (untuk scrollbar horizontal) */
-}
-
-.skills-grid::-webkit-scrollbar-thumb {
-  background-color: #57505f; /* Warna scrollbar */
-  border-radius: 0px; /* Sudut scrollbar */
-}
-
-.skills-grid::-webkit-scrollbar-track {
-  background: #d5cfcf; /* Warna latar belakang scrollbar */
-  border-radius: 0px;
-}
 
 .skill-card {
   flex: 0 0 350px; 
